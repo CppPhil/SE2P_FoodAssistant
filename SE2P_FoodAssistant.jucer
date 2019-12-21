@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="UXEkIr" name="SE2P_FoodAssistant" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.SE2P_FoodAssistant" includeBinaryInAppConfig="1"
+              jucerVersion="4.1.0" defines="_CRT_SECURE_NO_WARNINGS&#10;_SCL_SECURE_NO_WARNINGS">
+  <MAINGROUP id="IGTABs" name="SE2P_FoodAssistant">
+    <GROUP id="{86E4205A-D23F-A9BE-191B-6183C28623C0}" name="FoodComp">
+      <GROUP id="{D9D86423-D26E-7554-F94D-E6B8BDF13579}" name="Include">
+        <GROUP id="{78B2FC55-E4A3-15B0-D2B0-6A037D676DAE}" name="GUI">
+          <GROUP id="{5F62B486-8EE2-970D-1248-0F0FF33026AB}" name="Interfaces"/>
+          <GROUP id="{1D3028D7-5C1E-8B6B-7A35-65A00EDC988C}" name="Implementations">
+            <FILE id="dFnDYR" name="AddFood.h" compile="0" resource="0" file="Source/AddFood.h"/>
+            <FILE id="AEhYY6" name="AddFoodDialog.h" compile="0" resource="0" file="Source/AddFoodDialog.h"/>
+            <FILE id="r88fNN" name="DummyFood.h" compile="0" resource="0" file="Source/DummyFood.h"/>
+            <FILE id="aA4eLi" name="FoodPlan.h" compile="0" resource="0" file="Source/FoodPlan.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{EF2FD601-CBC8-CCA1-DC23-2C06A7D4914F}" name="Business_logic">
+          <GROUP id="{BAD10771-D4BC-76F4-C54A-E5739A6251AA}" name="Interfaces">
+            <FILE id="Y9AiGn" name="Food.h" compile="0" resource="0" file="Source/Food.h"/>
+          </GROUP>
+          <GROUP id="{B32194B3-DC0C-4470-72F6-EE6F30266B44}" name="Implementations">
+            <FILE id="uofNzf" name="FoodImpl.h" compile="0" resource="0" file="Source/FoodImpl.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{18D3EDB2-8CD2-006F-9B1C-2D4FA24A38B9}" name="Data_tier">
+          <GROUP id="{551E174C-9D4D-2FB5-BA56-424FE67FF328}" name="Interfaces"/>
+          <GROUP id="{F5B18304-26E7-22D9-D99D-C84EA1B765AF}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{BB0B7E43-3AF3-DD7F-B836-4E8A11FF1BB6}" name="Source">
+        <GROUP id="{8EC23851-D86E-2759-4EC8-EE39BE7C961D}" name="GUI">
+          <GROUP id="{80E8C33C-85DC-CC7F-57F5-8AA215CC1158}" name="Interfaces"/>
+          <GROUP id="{C9C0D28E-6B98-2545-A63D-B25FBF192D78}" name="Implementations">
+            <FILE id="qa4o6L" name="AddFood.cpp" compile="1" resource="0" file="Source/AddFood.cpp"/>
+            <FILE id="JACk5u" name="AddFoodDialog.cpp" compile="1" resource="0"
+                  file="Source/AddFoodDialog.cpp"/>
+            <FILE id="zhgLoi" name="DummyFood.cpp" compile="1" resource="0" file="Source/DummyFood.cpp"/>
+            <FILE id="lrD82W" name="FoodPlan.cpp" compile="1" resource="0" file="Source/FoodPlan.cpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{E6BA4E3E-A7BF-7C66-544E-6CBF8DC200A5}" name="Business_logic">
+          <GROUP id="{40BC6C75-5416-4275-F718-5D11C15926D4}" name="Interfaces">
+            <FILE id="H8SaKP" name="Food.cpp" compile="1" resource="0" file="Source/Food.cpp"/>
+          </GROUP>
+          <GROUP id="{A18F6BE6-F2F5-3695-089C-E130C98DF7A9}" name="Implementations">
+            <FILE id="C6K7Qn" name="FoodImpl.cpp" compile="1" resource="0" file="Source/FoodImpl.cpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{D9621A46-0A2C-02E9-CD09-80CAA9DD54FA}" name="Data_tier">
+          <GROUP id="{9ADF8D4A-D22B-2593-C80F-169E3EDFFDBA}" name="Implementations"/>
+          <GROUP id="{EC37FDAC-0F78-7149-B2EE-643E319A4E20}" name="Interfaces"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{57A389C2-67F2-DE3F-A4D4-8C35011762E2}" name="NoteComp">
+      <GROUP id="{47BB912F-C95E-3E2B-7896-3917BF2C6087}" name="Source">
+        <GROUP id="{56C4D915-3843-A71D-A513-F93BBD16AE4E}" name="GUI">
+          <GROUP id="{CDCBDF4E-009D-1D72-6A29-8F26AD94CA37}" name="Interfaces"/>
+          <GROUP id="{C56987CE-C0A4-BEFC-62E1-3F93DFF83EF9}" name="Implementations">
+            <FILE id="H9ITs8" name="AddNote.cpp" compile="1" resource="0" file="Source/AddNote.cpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{A9064520-6EEC-86A8-FE04-A4523F0D0DDC}" name="Business_logic">
+          <GROUP id="{2E0FA8A5-2C21-C51B-925F-5340546A16AE}" name="Interfaces"/>
+          <GROUP id="{E9359632-234A-79E5-4308-F0690F68AC0F}" name="Implementations">
+            <FILE id="CCnyW0" name="NoteImpl.cpp" compile="1" resource="0" file="Source/NoteImpl.cpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{FEAE2443-F9BB-7F3C-D819-FCB2D86620AC}" name="Data_tier">
+          <GROUP id="{54CF3E73-F9F6-3CEF-EA81-75B1F4958239}" name="Interfaces"/>
+          <GROUP id="{067C5162-2C4D-7D3A-5B90-96887CDA87F4}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{78440571-BEF2-937C-5317-C05FE321312E}" name="Include">
+        <GROUP id="{8CCB25AC-ED3D-9C63-17BC-54E3160322F9}" name="GUI">
+          <GROUP id="{92CD0BB6-4EB4-C541-9188-0196A3C562B0}" name="Interfaces"/>
+          <GROUP id="{DFD161AC-19FB-1777-71D1-6029A2F0C69A}" name="Implementations">
+            <FILE id="QvgqkK" name="AddNote.h" compile="0" resource="0" file="Source/AddNote.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{A4830ABF-B958-0AC4-23CB-167DC65C44AE}" name="Business_logic">
+          <GROUP id="{24E5E48B-A474-7916-97AE-A91C340303A7}" name="Interfaces"/>
+          <GROUP id="{84096293-82C3-D24A-4C46-6AAF96818689}" name="Implementations">
+            <FILE id="AZFbV4" name="NoteImpl.h" compile="0" resource="0" file="Source/NoteImpl.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{D2F076DF-4FE9-D252-8CEA-23DD0779A41F}" name="Data_tier">
+          <GROUP id="{413EB91B-3DAA-AD71-4365-919D74043D5F}" name="Interfaces"/>
+          <GROUP id="{1234CFC5-0747-D5B8-C91D-3861E8041AFE}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{537D42D1-8D92-ABB9-8DC2-E5C09F0F4A4B}" name="NutrientComp">
+      <GROUP id="{9EC3783C-41F8-195D-778F-E3704FF0D12E}" name="Source">
+        <GROUP id="{4F5562AB-6B6F-DA9B-A757-2E3DAEE5933E}" name="GUI">
+          <GROUP id="{1C127DB8-D3ED-A31D-1555-D74789A83FBB}" name="Interfaces"/>
+          <GROUP id="{3A5923E5-E8E0-6F94-F4DF-642B54D2DD72}" name="Implementations"/>
+        </GROUP>
+        <GROUP id="{02BDFC13-F943-DB9A-E84D-71C73BDA1D52}" name="Business_logic">
+          <GROUP id="{FCDA962F-52CD-19A9-6DA4-F0A2B3F03C5A}" name="Interfaces"/>
+          <GROUP id="{2E6C626C-319C-80FD-A608-3FF4E8A1722B}" name="Implementations">
+            <FILE id="u2AsV7" name="NutrientImpl.cpp" compile="1" resource="0"
+                  file="Source/NutrientImpl.cpp"/>
+            <FILE id="I2glOs" name="NutrientTableImpl.cpp" compile="1" resource="0"
+                  file="Source/NutrientTableImpl.cpp"/>
+            <FILE id="CGDLuJ" name="Amount.cpp" compile="1" resource="0" file="Source/Amount.cpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{18EB0821-9035-729D-6AEB-1CB04821B063}" name="Data_tier">
+          <GROUP id="{F23508F4-0A5D-3C5E-A80F-8F9665F8FEA1}" name="Interfaces"/>
+          <GROUP id="{DAAADF35-CD67-C16F-C244-051D76598B30}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{546447C8-A258-6E12-8D6E-F5684E1350D1}" name="Include">
+        <GROUP id="{DA469B6F-502E-3C1E-EF3C-C20188BEDB03}" name="GUI">
+          <GROUP id="{B1790052-D365-CDDC-93A7-CBDB06E813D6}" name="Interfaces"/>
+          <GROUP id="{41EB9E77-402E-F6A5-A109-569F95D5F844}" name="Implementations"/>
+        </GROUP>
+        <GROUP id="{CFCFBB86-F1E4-7A09-5A29-E6EB02D4EF63}" name="Business_logic">
+          <GROUP id="{86743244-2164-8E4E-A56B-AB9DE560A489}" name="Interfaces">
+            <FILE id="tdlc5D" name="NutrientTable.h" compile="0" resource="0" file="Source/NutrientTable.h"/>
+            <FILE id="F65vR0" name="Nutrient.h" compile="0" resource="0" file="Source/Nutrient.h"/>
+          </GROUP>
+          <GROUP id="{112E9A85-A702-4A42-49CD-A7E8FAC5B848}" name="Implementations">
+            <FILE id="Y0GsZ4" name="NutrientTableImpl.h" compile="0" resource="0"
+                  file="Source/NutrientTableImpl.h"/>
+            <FILE id="LzXfue" name="NutrientImpl.h" compile="0" resource="0" file="Source/NutrientImpl.h"/>
+            <FILE id="DYu4qW" name="Amount.h" compile="0" resource="0" file="Source/Amount.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{FB82B68D-27DE-FE44-1203-40232022E1E7}" name="Data_tier">
+          <GROUP id="{5745E99F-654A-C599-E9B5-4078401684F2}" name="Interfaces"/>
+          <GROUP id="{0A7FA21B-78BF-F706-6D13-6F68A1C629E7}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{3B186B05-BFF0-83C5-D027-004E13856B15}" name="PlanComp">
+      <GROUP id="{5585365E-2D71-BD16-4101-643EA61B30FF}" name="Source">
+        <GROUP id="{A3016B75-7C8C-6982-599F-4B849B802F92}" name="GUI">
+          <GROUP id="{1E5A6E10-A3CB-0C69-8CE9-1FA85FABC7BE}" name="Interfaces"/>
+          <GROUP id="{A451AE63-9959-63A7-300E-5627D92B4501}" name="Implementations"/>
+        </GROUP>
+        <GROUP id="{672AB0B5-93CF-3DAF-489F-C048A60747E4}" name="Business_logic">
+          <GROUP id="{C4FD5C3D-20EF-586B-7CD9-72AB6757C5F7}" name="Interfaces">
+            <FILE id="ZuraqS" name="PlanEntry.cpp" compile="1" resource="0" file="Source/PlanEntry.cpp"/>
+          </GROUP>
+          <GROUP id="{E8C1287D-10D4-71A1-B1AA-D699C5A46E50}" name="Implementations">
+            <FILE id="V7xVSY" name="Date.cpp" compile="1" resource="0" file="Source/Date.cpp"/>
+            <FILE id="bfBwqJ" name="DailyPlanImpl.cpp" compile="1" resource="0"
+                  file="Source/DailyPlanImpl.cpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{59977F98-76D4-09D6-0C9E-C2B41DF9D5B6}" name="Data_tier">
+          <GROUP id="{2F162A5A-7140-1F4B-A708-350DF2EF0B4B}" name="Interfaces"/>
+          <GROUP id="{9917A1CF-53FA-1DEE-8C34-6A7B0507891E}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{32C59B58-C325-5142-DB2A-D302BD3B571E}" name="Include">
+        <GROUP id="{42017BDE-0F62-164C-A2DB-F4522F3B0CBD}" name="GUI">
+          <GROUP id="{27A31D3C-A6B1-C683-1D13-49162CF0443F}" name="Interfaces">
+            <FILE id="xhPCET" name="DailyPlan.h" compile="0" resource="0" file="Source/DailyPlan.h"/>
+          </GROUP>
+          <GROUP id="{59D92748-E5BD-AC7B-2F8F-36E8D74673DE}" name="Implementations"/>
+        </GROUP>
+        <GROUP id="{8BA0182B-D9AD-FD67-614C-F36AB6242748}" name="Business_logic">
+          <GROUP id="{CAE912F2-68A6-7BD2-C2A0-0C5F4FA2583F}" name="Interfaces">
+            <FILE id="sjwYt1" name="PlanEntry.h" compile="0" resource="0" file="Source/PlanEntry.h"/>
+          </GROUP>
+          <GROUP id="{7EB20785-7F2A-3D16-7AE5-A6747167E389}" name="Implementations">
+            <FILE id="QfzES3" name="Date.h" compile="0" resource="0" file="Source/Date.h"/>
+            <FILE id="bWmndI" name="DailyPlanImpl.h" compile="0" resource="0" file="Source/DailyPlanImpl.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{EBFB9652-CC03-EFF8-B01A-477B69E6BFD5}" name="Data_tier">
+          <GROUP id="{BB377544-7F5A-446C-553C-EBCC8F0CD5AA}" name="Interfaces"/>
+          <GROUP id="{FAE5155E-D5D0-E13A-B2F6-C8EE59ED9E4D}" name="Implementations"/>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{ECCA5642-6AA7-00D6-9596-687B4EC0F4AD}" name="others">
+      <GROUP id="{0890AD66-B1D5-AECE-399C-082BAFFBA03A}" name="Include">
+        <GROUP id="{F4C5FDAC-B586-8FA4-53AE-A6F04DA2F17B}" name="Utilities">
+          <FILE id="vaiFe2" name="GlobalHeader.h" compile="0" resource="0" file="Source/GlobalHeader.h"/>
+          <FILE id="vn1qMI" name="RandomNumberGenerator.h" compile="0" resource="0"
+                file="Source/RandomNumberGenerator.h"/>
+          <FILE id="OcwmIg" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
+        </GROUP>
+        <GROUP id="{B8E18C1A-C5A3-ABA0-6420-7C0C73EC51D7}" name="Data_tier">
+          <GROUP id="{3ABB8BAE-E893-DEC1-445E-239D71017817}" name="Implementations">
+            <FILE id="ZJfPIB" name="DAOImpl.h" compile="0" resource="0" file="Source/DAOImpl.h"/>
+            <FILE id="AoEBMh" name="DAOMakersImpl.h" compile="0" resource="0" file="Source/DAOMakersImpl.h"/>
+            <FILE id="RvKMQO" name="TestDB.h" compile="0" resource="0" file="Source/TestDB.h"/>
+          </GROUP>
+          <GROUP id="{90490D01-BCBD-EDB0-3C54-004E23362CB9}" name="Interfaces">
+            <FILE id="oPHoCa" name="DAOMakers.h" compile="0" resource="0" file="Source/DAOMakers.h"/>
+            <FILE id="NEMRFZ" name="DAOs.h" compile="0" resource="0" file="Source/DAOs.h"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{EC90FC48-F531-65BB-5040-ACA030F920B7}" name="Business_logic">
+          <GROUP id="{80C91C8C-6BA0-EBA3-9177-E8A79D237B4A}" name="Implementations">
+            <FILE id="Fh6YjU" name="TestBoost.h" compile="0" resource="0" file="Source/TestBoost.h"/>
+          </GROUP>
+          <GROUP id="{453562E4-2098-5507-5488-19528EA4A30B}" name="Interfaces"/>
+        </GROUP>
+        <GROUP id="{36EE986B-9927-5A5B-7D0B-0473B2DEB924}" name="GUI">
+          <GROUP id="{9E529DDD-97C8-580A-01F9-78FC0309E311}" name="Implementations">
+            <FILE id="T6bpN3" name="Global.h" compile="0" resource="0" file="Source/Global.h"/>
+            <FILE id="JCA68s" name="SceneManager.h" compile="0" resource="0" file="Source/SceneManager.h"/>
+          </GROUP>
+          <GROUP id="{6BE4DBA6-E92B-5D3B-CE90-B4FB48F1E759}" name="Interfaces"/>
+          <GROUP id="{196489EC-1060-BD30-F125-A5D1E39040EB}" name="JUCE_base"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{B72C233E-2469-DFB3-BA71-600340F5A304}" name="Source">
+        <GROUP id="{AC6FC84D-CF11-B99C-2E30-9C3981BB3D10}" name="Utilities">
+          <FILE id="DkebC6" name="RandomNumberGenerator.cpp" compile="1" resource="0"
+                file="Source/RandomNumberGenerator.cpp"/>
+          <FILE id="ueeOWl" name="Utils.cpp" compile="1" resource="0" file="Source/Utils.cpp"/>
+        </GROUP>
+        <GROUP id="{7FAB7312-565C-FB41-FBE9-4BBAB0B9E4D3}" name="Data_tier">
+          <GROUP id="{77909AF7-B909-C739-065B-FF4B9C245ECD}" name="Implementations">
+            <FILE id="gSLXpE" name="DAOImpl.cpp" compile="1" resource="0" file="Source/DAOImpl.cpp"/>
+            <FILE id="BCFlGn" name="DAOMakersImpl.cpp" compile="1" resource="0"
+                  file="Source/DAOMakersImpl.cpp"/>
+            <FILE id="zK9SMn" name="TestDB.cpp" compile="1" resource="0" file="Source/TestDB.cpp"/>
+          </GROUP>
+          <GROUP id="{12625DA9-BAC5-83A6-F0D9-08B3ABBC4073}" name="Interfaces"/>
+        </GROUP>
+        <GROUP id="{C6B4B70F-0B4D-69DA-806C-CACE6F5FE6A6}" name="Business_logic">
+          <GROUP id="{B4AAFF16-D242-22AC-B958-B6D1ABEB19D5}" name="Implementations">
+            <FILE id="HlKQCw" name="TestBoost.cpp" compile="1" resource="0" file="Source/TestBoost.cpp"/>
+          </GROUP>
+          <GROUP id="{D0B3A2B9-D9CD-388B-C650-0976042F1AD0}" name="Interfaces"/>
+        </GROUP>
+        <GROUP id="{39EA389E-7E37-23CF-0FED-F581D952529D}" name="GUI">
+          <GROUP id="{7BCDEF61-8FF6-63B6-DC01-73B4565F8436}" name="Implementations">
+            <FILE id="vrI1RH" name="SceneManager.cpp" compile="1" resource="0"
+                  file="Source/SceneManager.cpp"/>
+          </GROUP>
+          <GROUP id="{06C30000-998F-8507-9779-33CA05CC6C60}" name="Interfaces"/>
+          <GROUP id="{AA400E90-0031-6C08-5FF4-18774391C58E}" name="JUCE_base">
+            <FILE id="hqRigb" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" extraLinkerFlags="/SUBSYSTEM:CONSOLE&#10;/ENTRY:WinMainCRTStartup"
+            externalLibraries="PocoData${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoDatamd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoDataMySQL${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoDataMySQLmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoFoundation${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoFoundationmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoJSON${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoJSONmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoNet${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoNetmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoUtil${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoUtilmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoXML${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoXMLmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoZip${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoZipmd${DEBUG_RELEASE_MACRO_THING}.lib"
+            extraDefs="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="SE2P_FoodAssistant"
+                       headerPath="C:\Program Files\boost\boost_1_60_0_32bit&#10;C:\poco-1.6.1-all\Data\include&#10;C:\poco-1.6.1-all\Data\MySQL\include&#10;C:\poco-1.6.1-all\Foundation\include&#10;C:\poco-1.6.1-all\JSON\include&#10;C:\poco-1.6.1-all\Net\include&#10;C:\poco-1.6.1-all\Util\include&#10;C:\poco-1.6.1-all\XML\include&#10;C:\poco-1.6.1-all\Zip\include"
+                       libraryPath="C:\Program Files\boost\boost_1_60_0_32bit\lib32-msvc-14.0&#10;C:\poco-1.6.1-all\lib"
+                       useRuntimeLibDLL="1" defines="DEBUG_RELEASE_MACRO_THING=d&#10;DONT_SET_USING_JUCE_NAMESPACE=1&#10;NOMINMAX&#10;_CRT_SECURE_NO_WARNINGS&#10;_SCL_SECURE_NO_WARNINGS"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="SE2P_FoodAssistant"
+                       headerPath="C:\Program Files\boost\boost_1_60_0_32bit&#10;C:\poco-1.6.1-all\Data\include&#10;C:\poco-1.6.1-all\Data\MySQL\include&#10;C:\poco-1.6.1-all\Foundation\include&#10;C:\poco-1.6.1-all\JSON\include&#10;C:\poco-1.6.1-all\Net\include&#10;C:\poco-1.6.1-all\Util\include&#10;C:\poco-1.6.1-all\XML\include&#10;C:\poco-1.6.1-all\Zip\include"
+                       libraryPath="C:\Program Files\boost\boost_1_60_0_32bit\lib32-msvc-14.0&#10;C:\poco-1.6.1-all\lib"
+                       warningsAreErrors="0" useRuntimeLibDLL="1" defines="DEBUG_RELEASE_MACRO_THING&#10;DONT_SET_USING_JUCE_NAMESPACE=1&#10;NOMINMAX&#10;_CRT_SECURE_NO_WARNINGS&#10;_SCL_SECURE_NO_WARNINGS"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../juce-grapefruit-windows/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2015 targetFolder="Builds/VisualStudio2015" extraLinkerFlags="/SUBSYSTEM:CONSOLE&#10;/ENTRY:WinMainCRTStartup"
+            externalLibraries="PocoData${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoDatamd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoDataMySQL${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoDataMySQLmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoFoundation${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoFoundationmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoJSON${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoJSONmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoNet${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoNetmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoUtil${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoUtilmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoXML${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoXMLmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoZip${DEBUG_RELEASE_MACRO_THING}.lib&#10;PocoZipmd${DEBUG_RELEASE_MACRO_THING}.lib&#10;gtest${DEBUG_RELEASE_MACRO_THING}.lib"
+            extraDefs="DONT_SET_USING_JUCE_NAMESPACE=1">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="SE2P_FoodAssistant"
+                       headerPath="C:\Program Files\boost\boost_1_60_0_64bit&#10;C:\poco-1.6.1-all\Data\include&#10;C:\poco-1.6.1-all\Data\MySQL\include&#10;C:\poco-1.6.1-all\Foundation\include&#10;C:\poco-1.6.1-all\JSON\include&#10;C:\poco-1.6.1-all\Net\include&#10;C:\poco-1.6.1-all\Util\include&#10;C:\poco-1.6.1-all\XML\include&#10;C:\poco-1.6.1-all\Zip\include&#10;C:\Google_Test\googletest\include"
+                       libraryPath="C:\Program Files\boost\boost_1_60_0_64bit\lib64-msvc-14.0&#10;C:\poco-1.6.1-all\lib64&#10;C:\Google_Test\googletest\msvc\x64\Debug"
+                       useRuntimeLibDLL="1" fastMath="0" defines="DEBUG_RELEASE_MACRO_THING=d&#10;DONT_SET_USING_JUCE_NAMESPACE=1&#10;NOMINMAX&#10;_CRT_SECURE_NO_WARNINGS&#10;_SCL_SECURE_NO_WARNINGS"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="SE2P_FoodAssistant"
+                       headerPath="C:\Program Files\boost\boost_1_60_0_64bit&#10;C:\poco-1.6.1-all\Data\include&#10;C:\poco-1.6.1-all\Data\MySQL\include&#10;C:\poco-1.6.1-all\Foundation\include&#10;C:\poco-1.6.1-all\JSON\include&#10;C:\poco-1.6.1-all\Net\include&#10;C:\poco-1.6.1-all\Util\include&#10;C:\poco-1.6.1-all\XML\include&#10;C:\poco-1.6.1-all\Zip\include&#10;C:\Google_Test\googletest\include"
+                       libraryPath="C:\Program Files\boost\boost_1_60_0_64bit\lib64-msvc-14.0&#10;C:\poco-1.6.1-all\lib64&#10;C:\Google_Test\googletest\msvc\x64\Release"
+                       useRuntimeLibDLL="1" defines="DEBUG_RELEASE_MACRO_THING&#10;DONT_SET_USING_JUCE_NAMESPACE=1&#10;NOMINMAX&#10;_CRT_SECURE_NO_WARNINGS&#10;_SCL_SECURE_NO_WARNINGS"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../juce-grapefruit-windows/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/&#10;/usr/local/lib"
+                       isDebug="1" optimisation="1" targetName="SE2P_FoodAssistant"
+                       headerPath="~/c++_libs/boost/boost_1_60_0&#10;~/c++_libs/c++_custom_libraries&#10;~/c++_libs/poco/poco-1.7.2-all/Data/include&#10;~/c++_libs/poco/poco-1.7.2-all/Data/MySQL/include&#10;~/c++_libs/poco/poco-1.7.2-all/Foundation/include&#10;~/c++_libs/poco/poco-1.7.2-all/JSON/include&#10;~/c++_libs/poco/poco-1.7.2-all/Net/include&#10;~/c++_libs/poco/poco-1.7.2-all/Util/include&#10;~/c++_libs/poco/poco-1.7.2-all/XML/include&#10;~/c++_libs/poco/poco-1.7.2-all/Zip/include"
+                       defines="DONT_SET_USING_JUCE_NAMESPACE=1" linuxArchitecture="-m64"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/&#10;/usr/local/lib"
+                       isDebug="0" optimisation="3" targetName="SE2P_FoodAssistant"
+                       headerPath="~/c++_libs/boost/boost_1_60_0&#10;~/c++_libs/c++_custom_libraries&#10;~/c++_libs/poco/poco-1.7.2-all/Data/include&#10;~/c++_libs/poco/poco-1.7.2-all/Data/MySQL/include&#10;~/c++_libs/poco/poco-1.7.2-all/Foundation/include&#10;~/c++_libs/poco/poco-1.7.2-all/JSON/include&#10;~/c++_libs/poco/poco-1.7.2-all/Net/include&#10;~/c++_libs/poco/poco-1.7.2-all/Util/include&#10;~/c++_libs/poco/poco-1.7.2-all/XML/include&#10;~/c++_libs/poco/poco-1.7.2-all/Zip/include"
+                       defines="DONT_SET_USING_JUCE_NAMESPACE=1" linuxArchitecture="-m64"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../juce-grapefruit-windows/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../juce-grapefruit-windows/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
